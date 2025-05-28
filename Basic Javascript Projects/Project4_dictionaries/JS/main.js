@@ -1,3 +1,4 @@
+// Create a dictionary with key value pairs of indie bands and their names abbreviated as keys.
 const indieBands = {
     "TI": "Tame Impala",
     "AF": "Arcade Fire",
@@ -21,8 +22,11 @@ const indieBands = {
     "XX": "The xx"
 };
 
+delete indieBands["TI"]; // Remove Tame Impala from the dictionary
+
+// Function to display the band name when hovering over the dictionary element
 function displayBandName() {
-    document.getElementById("Dictionary").innerHTML = "Result: " + indieBands["TS"];
+    document.getElementById("Dictionary").innerHTML = "Result: " + indieBands["TI"];
 }
 
 // Assign hover event to display the band name
