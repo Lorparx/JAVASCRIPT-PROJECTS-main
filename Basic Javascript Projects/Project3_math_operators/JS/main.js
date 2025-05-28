@@ -1,31 +1,33 @@
+// This JavaScript code performs basic arithmetic operations and displays the results on hover.
+// Addition
 function addNumbers() {
   return 5 + 3;
 }
-
+//  Subtraction
 function subtractNumbers() {
   return 10 - 4;
 }
-
+// Multiplication
 function multiplyNumbers() {
   return 6 * 7;
 }
-
+// Modulus
 function modulusNumbers() {
   return 17 % 5;
 }
-
+// Increment
 function incrementNumber() {
   let num = 8;
   num++;
   return num;
 }
-
+// Decrement
 function decrementNumber() {
   let num = 12;
   num--;
   return num;
 }
-
+// Random Number
 function randomNumber() {
   return Math.random().toFixed(2);
 }
