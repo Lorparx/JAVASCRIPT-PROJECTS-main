@@ -32,11 +32,11 @@ function randomNumber() {
   return Math.random().toFixed(2);
 }
 
-// Assign hover events to display results
+// Assign hover events to display results for addition
 document.getElementById("addition").addEventListener("mouseover", function() {
   this.innerText = "Result: " + addNumbers();
 });
-
+// Assign hover events to display results for subtraction, multiplication, modulus, increment, decrement, and random number
 document.getElementById("subtraction").addEventListener("mouseover", function() {
   this.innerText = "Result: " + subtractNumbers();
 });
