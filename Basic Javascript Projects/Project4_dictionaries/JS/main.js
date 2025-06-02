@@ -26,7 +26,7 @@ delete indieBands["TI"]; // Remove Tame Impala from the dictionary
 
 // Function to display the band name when hovering over the dictionary element
 function displayBandName() {
-    document.getElementById("Dictionary").innerHTML = "Result: " + indieBands["TI"];
+    document.getElementById("Dictionary").innerHTML = "Result: " + indieBands["AJ"];
 }
 
 // Assign hover event to display the band name
