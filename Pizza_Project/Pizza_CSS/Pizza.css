@@ -1,0 +1,80 @@
+#menuBG {
+    width: 650px; /* was 400px */
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 650px; /* was 400px */
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    }
+
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: left;      /* Change from float: right to float: left */
+    margin-left: 10px;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+/* Assign a background color to the body */
+body {
+    background-color: #f8f4e3; /* Example: light beige */
+}
+
+/* Assign a font family and color to all h1 elements */
+h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #b22222; /* Example: firebrick red */
+}
+
+/* Assign a font family and color to all h3 elements */
+h3 {
+    font-family: 'Verdana', Geneva, sans-serif;
+    color: #2e8b57; /* Example: sea green */
+}
+
+/* Assign a font family and color to all div elements */
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333; /* Example: dark gray */
+}
